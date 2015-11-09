@@ -177,7 +177,7 @@ main(argc, argv)
 	if (argc)
 		usage();
 
-	fallrate = 1000000 / level;
+	fallrate = 100000000 / level;
 
 	for (i = 0; i <= 5; i++) {
 		for (j = i+1; j <= 5; j++) {
